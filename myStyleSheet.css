@@ -720,8 +720,6 @@ position: relative;
     text-align: center;
 
     padding-block: 4.375rem;
-
-    border: 10px solid yellow;
 }
 
 .footer--wrapper{
@@ -729,8 +727,6 @@ position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: 6px solid violet;
 }
 
 .footer__logo{
