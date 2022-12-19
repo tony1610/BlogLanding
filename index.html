@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="myStyleSheet.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/e1d1facf77.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+  <div class="container-wrapper">
+    
+    <header class="header--container">
+     
+      <div class="navbar--container">
+        <img class="logo" src="images/logo.svg" alt="company logo">
+        
+<!-- NAVBAR -->
+        
+        <nav class="navbar">
+          <div class="toggle">
+            <span class="toggle-bars top"></span>
+            <span class="toggle-bars middle"></span>
+            <span class="toggle-bars bottom"></span>
+          </div>
+          
+          <div class="menu--wrapper">
+            
+            <div class="accordion">
+              <button class="accordion--header">Product
+                <i class="fas fa-solid fa-chevron-up"></i>
+              </button>
+
+              <div class="accordion--content">
+                <a class="accordion__links" href="#">Overview</a>
+                <a class="accordion__links" href="#">Pricing</a>
+                <a class="accordion__links" href="#">Marketplace</a>
+                <a class="accordion__links" href="#">Features</a>
+                <a class="accordion__links" href="#">Integrations</a>
+              </div>
+            </div>
+            
+              
+            <div class="accordion">
+              <button class="accordion--header">Company
+                 <i class="fas fa-solid fa-chevron-up"></i>
+              </button>
+
+              <div class="accordion--content">
+                <a class="accordion__links" href="#">About</a>
+                <a class="accordion__links" href="#">Team</a>
+                <a class="accordion__links" href="#">Blog</a>
+                <a class="accordion__links" href="#">Careers</a>
+              </div>
+            </div>
+            
+            <div class="accordion">
+              <button class="accordion--header">Connect
+                 <i class="fas fa-solid fa-chevron-up"></i>
+              </button>
+
+              <div class="accordion--content">
+                <a class="accordion__links" href="#">Contact</a>
+                <a class="accordion__links" href="#">Newsletter</a>
+                <a class="accordion__links" href="#">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="navbar--btn">
+              <button class="btn transparent-btn">Login</button>
+              <button class="btn solid-btn">Sign Up</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+<!-- HEADER CONTETN -->
+
+      <div class="header--content">
+        <h1 class="header__title">A modern publishing platform</h1>
+        <p class="header__content">Grow your audience and build your online brand
+        </p>
+      </div>
+      <div class="header--btn">
+        <button class="btn white-btn">Start for Free</button>
+        <button class="btn otuline-btn">Learn More</button>
+      </div>
+
+    </header>
+
+<!-- MAIN -->
+
+    <main class="main--container">
+
+      <h2 class="hero--one-title">
+        Designed for the future
+      </h2>
+
+<!-- HERO ONE -->
+
+      <div class="hero--one-container">
+        <img class="hero__one-image" src="images/illustration-editor-mobile.svg" alt="mobil graphic image">
+        
+        <img class="hero__one-image-desktop" src="images/illustration-editor-desktop.svg" alt="mobil graphic image">
+
+        <div class="section--container">
+          <div class="hero--one-section-top">
+            <h3 class="hero--one-subtitle">
+              Introducing an extensible editor
+            </h3>
+            <p class="hero--one-content">
+              Blogr features an exceedingly intuitive  interface which lets you focus on one thing: creating content.
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,   videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="hero--one-section-bottom">
+            <h3 class="hero--one-subtitle">
+              Robust content management
+            </h3>
+            <p class="hero--one-content">
+              Flexible content management enables users to easily move through posts. Increase the usability of your blog
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>
+        </div>
+
+          
+
+      </div>
+
+<!-- CALLOUT -->
+      
+        <div class="callout--container">
+          <img class="callout__image"
+          src="images/illustration-phones.svg" alt="cellphone illustrations">
+          <div class="callout--wrapper">
+            <div class="callout--section">
+              <h3 class="callout-title">
+                State of the Art Infrastructure
+              </h3>
+              <p class="callout-content">
+                With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+                This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+<!-- HERO TWO -->
+
+      <div class="hero--two-container">
+       
+        <img class="hero__two-image" src="images/illustration-laptop-mobile.svg" alt="open laptop illustration">
+        <img class="hero__two-image-desktop" src="images/illustration-laptop-desktop.svg" alt="open laptop illustration">
+
+        <div class="section--wrapper">
+          <div class="hero--two-section-top">
+            <h3 class="hero--two-subtitle">
+              Free, open, simple
+            </h3>
+            <p class="hero--two-content">
+              Blogr is a free and open source application backed by a large community of helpful developers. It supports
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+            </p>
+          </div>
+          <div class="hero--two-section-bottom">
+            <h3 class="hero--two-subtitle">
+              Powerful tooling
+            </h3>
+            <p class="hero--two-content">
+              Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+
+      </div>
+        
+    </main>
+
+<!-- FOOTER -->
+    <footer class="footer--container">
+
+        <div class="footer--wrapper">
+          <img class="logo footer__logo" src="images/logo.svg" alt="company logo">
+          <nav class="navbar--footer">
+
+            <div class="footer--nav">
+              
+              <div class="product--container">
+                <h3 class="footer--header">Product</h3>
+                <div class="footer--content">
+                  <a class="footer__links" href="#">Overview</a>
+                  <a class="footer__links" href="#">Pricing</a>
+                  <a class="footer__links" href="#">Marketplace</a>
+                  <a class="footer__links" href="#">Features</a>
+                  <a class="footer__links" href="#">Integrations</a>
+                </div>
+              </div>
+            
+              
+              <div class="company--container">
+                <h3 class="footer--header">Company</h3>
+                <div class="footer--content">
+                  <a class="footer__links" href="#">About</a>
+                  <a class="footer__links" href="#">Team</a>
+                  <a class="footer__links" href="#">Blog</a>
+                  <a class="footer__links" href="#">Careers</a>
+                </div>
+              </div>
+            
+              
+              <div class="connect--container">
+                <h3 class="footer--header">Connect</h3>
+                <div class="footer--content">
+                  <a class="footer__links" href="#">Contact</a>
+                  <a class="footer__links" href="#">Newsletter</a>
+                  <a class="footer__links" href="#">LinkedIn</a>
+                </div>
+              </div>
+            </div>       
+          </nav>
+        </div>
+      </footer>
+  </div> 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tony Febus</a>.
+  </div>
+
+  <script src="mainJS.js"></script>
+</body>
+</html>
